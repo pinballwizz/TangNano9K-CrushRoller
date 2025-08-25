@@ -1,0 +1,39 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
+    <FileList>
+        <File path="src/scandoubler_new.v" type="file.verilog" enable="1"/>
+        <File path="proms/GFX1.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/PROM1_DST.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/PROM4_DST.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/PROM7_DST.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/ROM_PGM_0.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/ROM_PGM_1.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/TN9K-CrushRoller.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cpu/T80.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cpu/T80_ALU.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cpu/T80_MCode.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cpu/T80_Pack.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cpu/T80_Reg.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cpu/T80sed.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/dac.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/dpram.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/dpram2.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gen_ram.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_rpll.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_rpll2.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/io_ps2_keyboard.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/kbd_joystick.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/pacman.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/pacman_audio.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/pacman_clocks_xilinx.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/pacman_mul4.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/pacman_rams.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/pacman_video.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/pacman_vram_addr.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/TN9K-Pacman.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
